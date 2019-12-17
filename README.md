@@ -1,3 +1,3 @@
 # BunnyBarn
 
-Hello GIT nB
+Hello GIT

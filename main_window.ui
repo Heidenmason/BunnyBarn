@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>800</width>
+                <height>842</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>MainWindow</string>
+        </property>
+        <property name="windowIcon">
+            <iconset>
+                <normaloff>icon.png</normaloff>icon.png
+            </iconset>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <property name="enabled">
+                <bool>true</bool>
+            </property>
+            <property name="autoFillBackground">
+                <bool>false</bool>
+            </property>
+            <widget class="QFrame" name="frame">
+                <property name="geometry">
+                    <rect>
+                        <x>0</x>
+                        <y>0</y>
+                        <width>800</width>
+                        <height>800</height>
+                    </rect>
+                </property>
+                <property name="autoFillBackground">
+                    <bool>false</bool>
+                </property>
+                <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                </property>
+                <property name="lineWidth">
+                    <number>0</number>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout" stretch="0">
+                    <property name="spacing">
+                        <number>6</number>
+                    </property>
+                    <property name="sizeConstraint">
+                        <enum>QLayout::SetNoConstraint</enum>
+                    </property>
+                    <property name="leftMargin">
+                        <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                        <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                        <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                        <number>0</number>
+                    </property>
+                    <item>
+                        <widget class="QTabWidget" name="tabWidget">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="tabShape">
+                                <enum>QTabWidget::Triangular</enum>
+                            </property>
+                            <property name="currentIndex">
+                                <number>1</number>
+                            </property>
+                            <widget class="QWidget" name="Home">
+                                <property name="cursor">
+                                    <cursorShape>ArrowCursor</cursorShape>
+                                </property>
+                                <attribute name="title">
+                                    <string>Home</string>
+                                </attribute>
+                                <widget class="QFrame" name="frame_2">
+                                    <property name="geometry">
+                                        <rect>
+                                            <x>0</x>
+                                            <y>0</y>
+                                            <width>794</width>
+                                            <height>768</height>
+                                        </rect>
+                                    </property>
+                                    <property name="frameShape">
+                                        <enum>QFrame::StyledPanel</enum>
+                                    </property>
+                                    <property name="frameShadow">
+                                        <enum>QFrame::Raised</enum>
+                                    </property>
+                                    <widget class="QWidget" name="">
+                                        <property name="geometry">
+                                            <rect>
+                                                <x>5</x>
+                                                <y>5</y>
+                                                <width>786</width>
+                                                <height>756</height>
+                                            </rect>
+                                        </property>
+                                        <layout class="QVBoxLayout" name="verticalLayout_Home">
+                                            <item>
+                                                <widget class="QGroupBox" name="groupBox_HomeRabbits">
+                                                    <property name="sizePolicy">
+                                                        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                                                            <horstretch>0</horstretch>
+                                                            <verstretch>0</verstretch>
+                                                        </sizepolicy>
+                                                    </property>
+                                                    <property name="title">
+                                                        <string>Rabbits</string>
+                                                    </property>
+                                                    <layout class="QHBoxLayout" name="horizontalLayout">
+                                                        <item>
+                                                            <layout class="QHBoxLayout" name="horizontalLayout_Rabbits">
+                                                                <item>
+                                                                    <widget class="QPushButton"
+                                                                            name="pushButton_RabbitsActive">
+                                                                        <property name="sizePolicy">
+                                                                            <sizepolicy hsizetype="Minimum"
+                                                                                        vsizetype="Fixed">
+                                                                                <horstretch>0</horstretch>
+                                                                                <verstretch>0</verstretch>
+                                                                            </sizepolicy>
+                                                                        </property>
+                                                                        <property name="cursor">
+                                                                            <cursorShape>PointingHandCursor
+                                                                            </cursorShape>
+                                                                        </property>
+                                                                        <property name="layoutDirection">
+                                                                            <enum>Qt::LeftToRight</enum>
+                                                                        </property>
+                                                                        <property name="text">
+                                                                            <string>Active Rabbits</string>
+                                                                        </property>
+                                                                        <property name="icon">
+                                                                            <iconset>
+                                                                                <normaloff>icon.png</normaloff>icon.png
+                                                                            </iconset>
+                                                                        </property>
+                                                                        <property name="iconSize">
+                                                                            <size>
+                                                                                <width>32</width>
+                                                                                <height>32</height>
+                                                                            </size>
+                                                                        </property>
+                                                                        <property name="checkable">
+                                                                            <bool>false</bool>
+                                                                        </property>
+                                                                    </widget>
+                                                                </item>
+                                                                <item>
+                                                                    <widget class="QPushButton"
+                                                                            name="pushButton_RabbitsAddNew">
+                                                                        <property name="sizePolicy">
+                                                                            <sizepolicy hsizetype="Minimum"
+                                                                                        vsizetype="Fixed">
+                                                                                <horstretch>0</horstretch>
+                                                                                <verstretch>0</verstretch>
+                                                                            </sizepolicy>
+                                                                        </property>
+                                                                        <property name="cursor">
+                                                                            <cursorShape>PointingHandCursor
+                                                                            </cursorShape>
+                                                                        </property>
+                                                                        <property name="layoutDirection">
+                                                                            <enum>Qt::LeftToRight</enum>
+                                                                        </property>
+                                                                        <property name="text">
+                                                                            <string>Add New Rabbits</string>
+                                                                        </property>
+                                                                        <property name="icon">
+                                                                            <iconset>
+                                                                                <normaloff>icon.png</normaloff>icon.png
+                                                                            </iconset>
+                                                                        </property>
+                                                                        <property name="iconSize">
+                                                                            <size>
+                                                                                <width>32</width>
+                                                                                <height>32</height>
+                                                                            </size>
+                                                                        </property>
+                                                                        <property name="checkable">
+                                                                            <bool>false</bool>
+                                                                        </property>
+                                                                    </widget>
+                                                                </item>
+                                                                <item>
+                                                                    <widget class="QPushButton"
+                                                                            name="pushButton_RabbitsFind">
+                                                                        <property name="sizePolicy">
+                                                                            <sizepolicy hsizetype="Minimum"
+                                                                                        vsizetype="Fixed">
+                                                                                <horstretch>0</horstretch>
+                                                                                <verstretch>0</verstretch>
+                                                                            </sizepolicy>
+                                                                        </property>
+                                                                        <property name="cursor">
+                                                                            <cursorShape>PointingHandCursor
+                                                                            </cursorShape>
+                                                                        </property>
+                                                                        <property name="layoutDirection">
+                                                                            <enum>Qt::LeftToRight</enum>
+                                                                        </property>
+                                                                        <property name="text">
+                                                                            <string>Find a Rabbit</string>
+                                                                        </property>
+                                                                        <property name="icon">
+                                                                            <iconset>
+                                                                                <normaloff>icon.png</normaloff>icon.png
+                                                                            </iconset>
+                                                                        </property>
+                                                                        <property name="iconSize">
+                                                                            <size>
+                                                                                <width>32</width>
+                                                                                <height>32</height>
+                                                                            </size>
+                                                                        </property>
+                                                                        <property name="checkable">
+                                                                            <bool>false</bool>
+                                                                        </property>
+                                                                    </widget>
+                                                                </item>
+                                                                <item>
+                                                                    <widget class="QPushButton"
+                                                                            name="pushButton_RabbitsListAll">
+                                                                        <property name="sizePolicy">
+                                                                            <sizepolicy hsizetype="Minimum"
+                                                                                        vsizetype="Fixed">
+                                                                                <horstretch>0</horstretch>
+                                                                                <verstretch>0</verstretch>
+                                                                            </sizepolicy>
+                                                                        </property>
+                                                                        <property name="cursor">
+                                                                            <cursorShape>PointingHandCursor
+                                                                            </cursorShape>
+                                                                        </property>
+                                                                        <property name="layoutDirection">
+                                                                            <enum>Qt::LeftToRight</enum>
+                                                                        </property>
+                                                                        <property name="text">
+                                                                            <string>Rabbitry</string>
+                                                                        </property>
+                                                                        <property name="icon">
+                                                                            <iconset>
+                                                                                <normaloff>icon.png</normaloff>icon.png
+                                                                            </iconset>
+                                                                        </property>
+                                                                        <property name="iconSize">
+                                                                            <size>
+                                                                                <width>32</width>
+                                                                                <height>32</height>
+                                                                            </size>
+                                                                        </property>
+                                                                        <property name="checkable">
+                                                                            <bool>false</bool>
+                                                                        </property>
+                                                                    </widget>
+                                                                </item>
+                                                            </layout>
+                                                        </item>
+                                                    </layout>
+                                                </widget>
+                                            </item>
+                                            <item>
+                                                <widget class="Line" name="line">
+                                                    <property name="orientation">
+                                                        <enum>Qt::Horizontal</enum>
+                                                    </property>
+                                                </widget>
+                                            </item>
+                                            <item>
+                                                <widget class="QGroupBox" name="groupBox_HomeBreeding">
+                                                    <property name="sizePolicy">
+                                                        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                                                            <horstretch>0</horstretch>
+                                                            <verstretch>0</verstretch>
+                                                        </sizepolicy>
+                                                    </property>
+                                                    <property name="title">
+                                                        <string>Breeding</string>
+                                                    </property>
+                                                    <layout class="QHBoxLayout" name="horizontalLayout_3">
+                                                        <item>
+                                                            <layout class="QHBoxLayout"
+                                                                    name="horizontalLayout_Breeding">
+                                                                <item>
+                                                                    <widget class="QPushButton"
+                                                                            name="pushButton_BreedingDoes">
+                                                                        <property name="sizePolicy">
+                                                                            <sizepolicy hsizetype="Minimum"
+                                                                                        vsizetype="Fixed">
+                                                                                <horstretch>0</horstretch>
+                                                                                <verstretch>0</verstretch>
+                                                                            </sizepolicy>
+                                                                        </property>
+                                                                        <property name="cursor">
+                                                                            <cursorShape>PointingHandCursor
+                                                                            </cursorShape>
+                                                                        </property>
+                                                                        <property name="layoutDirection">
+                                                                            <enum>Qt::LeftToRight</enum>
+                                                                        </property>
+                                                                        <property name="text">
+                                                                            <string>Breeding Does</string>
+                                                                        </property>
+                                                                        <property name="icon">
+                                                                            <iconset>
+                                                                                <normaloff>icon.png</normaloff>icon.png
+                                                                            </iconset>
+                                                                        </property>
+                                                                        <property name="iconSize">
+                                                                            <size>
+                                                                                <width>32</width>
+                                                                                <height>32</height>
+                                                                            </size>
+                                                                        </property>
+                                                                        <property name="checkable">
+                                                                            <bool>false</bool>
+                                                                        </property>
+                                                                    </widget>
+                                                                </item>
+                                                                <item>
+                                                                    <widget class="QPushButton"
+                                                                            name="pushButton_BreedingAddNew">
+                                                                        <property name="sizePolicy">
+                                                                            <sizepolicy hsizetype="Minimum"
+                                                                                        vsizetype="Fixed">
+                                                                                <horstretch>0</horstretch>
+                                                                                <verstretch>0</verstretch>
+                                                                            </sizepolicy>
+                                                                        </property>
+                                                                        <property name="cursor">
+                                                                            <cursorShape>PointingHandCursor
+                                                                            </cursorShape>
+                                                                        </property>
+                                                                        <property name="layoutDirection">
+                                                                            <enum>Qt::LeftToRight</enum>
+                                                                        </property>
+                                                                        <property name="text">
+                                                                            <string>Add New Breeding</string>
+                                                                        </property>
+                                                                        <property name="icon">
+                                                                            <iconset>
+                                                                                <normaloff>icon.png</normaloff>icon.png
+                                                                            </iconset>
+                                                                        </property>
+                                                                        <property name="iconSize">
+                                                                            <size>
+                                                                                <width>32</width>
+                                                                                <height>32</height>
+                                                                            </size>
+                                                                        </property>
+                                                                        <property name="checkable">
+                                                                            <bool>false</bool>
+                                                                        </property>
+                                                                    </widget>
+                                                                </item>
+                                                                <item>
+                                                                    <widget class="QPushButton"
+                                                                            name="pushButton_BreedingBlank">
+                                                                        <property name="sizePolicy">
+                                                                            <sizepolicy hsizetype="Minimum"
+                                                                                        vsizetype="Fixed">
+                                                                                <horstretch>0</horstretch>
+                                                                                <verstretch>0</verstretch>
+                                                                            </sizepolicy>
+                                                                        </property>
+                                                                        <property name="cursor">
+                                                                            <cursorShape>PointingHandCursor
+                                                                            </cursorShape>
+                                                                        </property>
+                                                                        <property name="layoutDirection">
+                                                                            <enum>Qt::LeftToRight</enum>
+                                                                        </property>
+                                                                        <property name="text">
+                                                                            <string/>
+                                                                        </property>
+                                                                        <property name="icon">
+                                                                            <iconset>
+                                                                                <normaloff>icon.png</normaloff>icon.png
+                                                                            </iconset>
+                                                                        </property>
+                                                                        <property name="iconSize">
+                                                                            <size>
+                                                                                <width>32</width>
+                                                                                <height>32</height>
+                                                                            </size>
+                                                                        </property>
+                                                                        <property name="checkable">
+                                                                            <bool>false</bool>
+                                                                        </property>
+                                                                    </widget>
+                                                                </item>
+                                                                <item>
+                                                                    <widget class="QPushButton"
+                                                                            name="pushButton_BreedingBlank_2">
+                                                                        <property name="sizePolicy">
+                                                                            <sizepolicy hsizetype="Minimum"
+                                                                                        vsizetype="Fixed">
+                                                                                <horstretch>0</horstretch>
+                                                                                <verstretch>0</verstretch>
+                                                                            </sizepolicy>
+                                                                        </property>
+                                                                        <property name="cursor">
+                                                                            <cursorShape>PointingHandCursor
+                                                                            </cursorShape>
+                                                                        </property>
+                                                                        <property name="layoutDirection">
+                                                                            <enum>Qt::LeftToRight</enum>
+                                                                        </property>
+                                                                        <property name="text">
+                                                                            <string/>
+                                                                        </property>
+                                                                        <property name="icon">
+                                                                            <iconset>
+                                                                                <normaloff>icon.png</normaloff>icon.png
+                                                                            </iconset>
+                                                                        </property>
+                                                                        <property name="iconSize">
+                                                                            <size>
+                                                                                <width>32</width>
+                                                                                <height>32</height>
+                                                                            </size>
+                                                                        </property>
+                                                                        <property name="checkable">
+                                                                            <bool>false</bool>
+                                                                        </property>
+                                                                    </widget>
+                                                                </item>
+                                                            </layout>
+                                                        </item>
+                                                    </layout>
+                                                </widget>
+                                            </item>
+                                            <item>
+                                                <widget class="Line" name="line_2">
+                                                    <property name="orientation">
+                                                        <enum>Qt::Horizontal</enum>
+                                                    </property>
+                                                </widget>
+                                            </item>
+                                            <item>
+                                                <widget class="QGroupBox" name="groupBox_HomeSettings">
+                                                    <property name="sizePolicy">
+                                                        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                                                            <horstretch>0</horstretch>
+                                                            <verstretch>0</verstretch>
+                                                        </sizepolicy>
+                                                    </property>
+                                                    <property name="title">
+                                                        <string>Settings</string>
+                                                    </property>
+                                                    <layout class="QHBoxLayout" name="horizontalLayout_5">
+                                                        <item>
+                                                            <layout class="QHBoxLayout"
+                                                                    name="horizontalLayout_Settings">
+                                                                <item>
+                                                                    <widget class="QPushButton"
+                                                                            name="pushButton_Settings">
+                                                                        <property name="sizePolicy">
+                                                                            <sizepolicy hsizetype="Minimum"
+                                                                                        vsizetype="Fixed">
+                                                                                <horstretch>0</horstretch>
+                                                                                <verstretch>0</verstretch>
+                                                                            </sizepolicy>
+                                                                        </property>
+                                                                        <property name="cursor">
+                                                                            <cursorShape>PointingHandCursor
+                                                                            </cursorShape>
+                                                                        </property>
+                                                                        <property name="layoutDirection">
+                                                                            <enum>Qt::LeftToRight</enum>
+                                                                        </property>
+                                                                        <property name="text">
+                                                                            <string>Settings</string>
+                                                                        </property>
+                                                                        <property name="icon">
+                                                                            <iconset>
+                                                                                <normaloff>icon.png</normaloff>icon.png
+                                                                            </iconset>
+                                                                        </property>
+                                                                        <property name="iconSize">
+                                                                            <size>
+                                                                                <width>32</width>
+                                                                                <height>32</height>
+                                                                            </size>
+                                                                        </property>
+                                                                        <property name="checkable">
+                                                                            <bool>false</bool>
+                                                                        </property>
+                                                                    </widget>
+                                                                </item>
+                                                                <item>
+                                                                    <widget class="QPushButton"
+                                                                            name="pushButton_Settings_2">
+                                                                        <property name="sizePolicy">
+                                                                            <sizepolicy hsizetype="Minimum"
+                                                                                        vsizetype="Fixed">
+                                                                                <horstretch>0</horstretch>
+                                                                                <verstretch>0</verstretch>
+                                                                            </sizepolicy>
+                                                                        </property>
+                                                                        <property name="cursor">
+                                                                            <cursorShape>PointingHandCursor
+                                                                            </cursorShape>
+                                                                        </property>
+                                                                        <property name="layoutDirection">
+                                                                            <enum>Qt::LeftToRight</enum>
+                                                                        </property>
+                                                                        <property name="text">
+                                                                            <string/>
+                                                                        </property>
+                                                                        <property name="icon">
+                                                                            <iconset>
+                                                                                <normaloff>icon.png</normaloff>icon.png
+                                                                            </iconset>
+                                                                        </property>
+                                                                        <property name="iconSize">
+                                                                            <size>
+                                                                                <width>32</width>
+                                                                                <height>32</height>
+                                                                            </size>
+                                                                        </property>
+                                                                        <property name="checkable">
+                                                                            <bool>false</bool>
+                                                                        </property>
+                                                                    </widget>
+                                                                </item>
+                                                                <item>
+                                                                    <widget class="QPushButton"
+                                                                            name="pushButton_Settings_3">
+                                                                        <property name="sizePolicy">
+                                                                            <sizepolicy hsizetype="Minimum"
+                                                                                        vsizetype="Fixed">
+                                                                                <horstretch>0</horstretch>
+                                                                                <verstretch>0</verstretch>
+                                                                            </sizepolicy>
+                                                                        </property>
+                                                                        <property name="cursor">
+                                                                            <cursorShape>PointingHandCursor
+                                                                            </cursorShape>
+                                                                        </property>
+                                                                        <property name="layoutDirection">
+                                                                            <enum>Qt::LeftToRight</enum>
+                                                                        </property>
+                                                                        <property name="text">
+                                                                            <string/>
+                                                                        </property>
+                                                                        <property name="icon">
+                                                                            <iconset>
+                                                                                <normaloff>icon.png</normaloff>icon.png
+                                                                            </iconset>
+                                                                        </property>
+                                                                        <property name="iconSize">
+                                                                            <size>
+                                                                                <width>32</width>
+                                                                                <height>32</height>
+                                                                            </size>
+                                                                        </property>
+                                                                        <property name="checkable">
+                                                                            <bool>false</bool>
+                                                                        </property>
+                                                                    </widget>
+                                                                </item>
+                                                                <item>
+                                                                    <widget class="QPushButton"
+                                                                            name="pushButton_Settings_4">
+                                                                        <property name="sizePolicy">
+                                                                            <sizepolicy hsizetype="Minimum"
+                                                                                        vsizetype="Fixed">
+                                                                                <horstretch>0</horstretch>
+                                                                                <verstretch>0</verstretch>
+                                                                            </sizepolicy>
+                                                                        </property>
+                                                                        <property name="cursor">
+                                                                            <cursorShape>PointingHandCursor
+                                                                            </cursorShape>
+                                                                        </property>
+                                                                        <property name="layoutDirection">
+                                                                            <enum>Qt::LeftToRight</enum>
+                                                                        </property>
+                                                                        <property name="text">
+                                                                            <string/>
+                                                                        </property>
+                                                                        <property name="icon">
+                                                                            <iconset>
+                                                                                <normaloff>icon.png</normaloff>icon.png
+                                                                            </iconset>
+                                                                        </property>
+                                                                        <property name="iconSize">
+                                                                            <size>
+                                                                                <width>32</width>
+                                                                                <height>32</height>
+                                                                            </size>
+                                                                        </property>
+                                                                        <property name="checkable">
+                                                                            <bool>false</bool>
+                                                                        </property>
+                                                                    </widget>
+                                                                </item>
+                                                            </layout>
+                                                        </item>
+                                                    </layout>
+                                                </widget>
+                                            </item>
+                                        </layout>
+                                    </widget>
+                                </widget>
+                            </widget>
+                            <widget class="QWidget" name="Rabbits">
+                                <attribute name="title">
+                                    <string>Rabbits</string>
+                                </attribute>
+                                <widget class="QFrame" name="frame_RabbitsMain">
+                                    <property name="geometry">
+                                        <rect>
+                                            <x>0</x>
+                                            <y>0</y>
+                                            <width>798</width>
+                                            <height>798</height>
+                                        </rect>
+                                    </property>
+                                    <property name="frameShape">
+                                        <enum>QFrame::StyledPanel</enum>
+                                    </property>
+                                    <property name="frameShadow">
+                                        <enum>QFrame::Raised</enum>
+                                    </property>
+                                    <widget class="QListWidget" name="listWidget">
+                                        <property name="geometry">
+                                            <rect>
+                                                <x>190</x>
+                                                <y>190</y>
+                                                <width>256</width>
+                                                <height>192</height>
+                                            </rect>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit" name="lineEdit_SetName">
+                                        <property name="geometry">
+                                            <rect>
+                                                <x>80</x>
+                                                <y>95</y>
+                                                <width>113</width>
+                                                <height>24</height>
+                                            </rect>
+                                        </property>
+                                    </widget>
+                                    <widget class="QComboBox" name="comboBox">
+                                        <property name="geometry">
+                                            <rect>
+                                                <x>40</x>
+                                                <y>165</y>
+                                                <width>79</width>
+                                                <height>24</height>
+                                            </rect>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel" name="label">
+                                        <property name="geometry">
+                                            <rect>
+                                                <x>560</x>
+                                                <y>50</y>
+                                                <width>58</width>
+                                                <height>16</height>
+                                            </rect>
+                                        </property>
+                                        <property name="text">
+                                            <string>TextLabel</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QListView" name="listView">
+                                        <property name="geometry">
+                                            <rect>
+                                                <x>485</x>
+                                                <y>275</y>
+                                                <width>256</width>
+                                                <height>192</height>
+                                            </rect>
+                                        </property>
+                                    </widget>
+                                    <widget class="QPushButton" name="pushButton_Close">
+                                        <property name="geometry">
+                                            <rect>
+                                                <x>235</x>
+                                                <y>500</y>
+                                                <width>80</width>
+                                                <height>24</height>
+                                            </rect>
+                                        </property>
+                                        <property name="text">
+                                            <string>PushButton</string>
+                                        </property>
+                                    </widget>
+                                </widget>
+                            </widget>
+                            <widget class="QWidget" name="Breeding">
+                                <attribute name="title">
+                                    <string>Breeding</string>
+                                </attribute>
+                            </widget>
+                        </widget>
+                    </item>
+                </layout>
+            </widget>
+        </widget>
+        <widget class="QMenuBar" name="menubar">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>800</width>
+                    <height>21</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="QStatusBar" name="statusbar">
+            <property name="sizeGripEnabled">
+                <bool>false</bool>
+            </property>
+        </widget>
+    </widget>
+    <layoutdefault spacing="6" margin="9"/>
+    <resources/>
+    <connections/>
+</ui>
