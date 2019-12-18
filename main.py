@@ -6,7 +6,7 @@ from PyQt5 import QtWidgets, QtGui
 from main_window import *  # importing our generated file
 
 data = ['PyQt5', 'Is']
-
+    #  \b(todo)\b.*
 
 class Main(QtWidgets.QMainWindow):
 
