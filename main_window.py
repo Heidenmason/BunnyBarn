@@ -76,7 +76,8 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.pushButton_RabbitsActive.sizePolicy().hasHeightForWidth())
         self.pushButton_RabbitsActive.setSizePolicy(sizePolicy)
-        self.pushButton_RabbitsActive.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_RabbitsActive.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor
+                                                              ))
         self.pushButton_RabbitsActive.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.pushButton_RabbitsActive.setIcon(icon)
         self.pushButton_RabbitsActive.setIconSize(QtCore.QSize(32, 32))
@@ -89,7 +90,8 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.pushButton_RabbitsAddNew.sizePolicy().hasHeightForWidth())
         self.pushButton_RabbitsAddNew.setSizePolicy(sizePolicy)
-        self.pushButton_RabbitsAddNew.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_RabbitsAddNew.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor
+                                                              ))
         self.pushButton_RabbitsAddNew.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.pushButton_RabbitsAddNew.setIcon(icon)
         self.pushButton_RabbitsAddNew.setIconSize(QtCore.QSize(32, 32))
@@ -102,7 +104,8 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.pushButton_RabbitsFind.sizePolicy().hasHeightForWidth())
         self.pushButton_RabbitsFind.setSizePolicy(sizePolicy)
-        self.pushButton_RabbitsFind.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_RabbitsFind.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor
+                                                            ))
         self.pushButton_RabbitsFind.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.pushButton_RabbitsFind.setIcon(icon)
         self.pushButton_RabbitsFind.setIconSize(QtCore.QSize(32, 32))
@@ -115,7 +118,8 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.pushButton_RabbitsListAll.sizePolicy().hasHeightForWidth())
         self.pushButton_RabbitsListAll.setSizePolicy(sizePolicy)
-        self.pushButton_RabbitsListAll.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_RabbitsListAll.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor
+                                                               ))
         self.pushButton_RabbitsListAll.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.pushButton_RabbitsListAll.setIcon(icon)
         self.pushButton_RabbitsListAll.setIconSize(QtCore.QSize(32, 32))
@@ -149,7 +153,8 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.pushButton_BreedingDoes.sizePolicy().hasHeightForWidth())
         self.pushButton_BreedingDoes.setSizePolicy(sizePolicy)
-        self.pushButton_BreedingDoes.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_BreedingDoes.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor
+                                                             ))
         self.pushButton_BreedingDoes.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.pushButton_BreedingDoes.setIcon(icon)
         self.pushButton_BreedingDoes.setIconSize(QtCore.QSize(32, 32))
@@ -162,7 +167,8 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.pushButton_BreedingAddNew.sizePolicy().hasHeightForWidth())
         self.pushButton_BreedingAddNew.setSizePolicy(sizePolicy)
-        self.pushButton_BreedingAddNew.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_BreedingAddNew.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor
+                                                               ))
         self.pushButton_BreedingAddNew.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.pushButton_BreedingAddNew.setIcon(icon)
         self.pushButton_BreedingAddNew.setIconSize(QtCore.QSize(32, 32))
@@ -175,7 +181,8 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.pushButton_BreedingBlank.sizePolicy().hasHeightForWidth())
         self.pushButton_BreedingBlank.setSizePolicy(sizePolicy)
-        self.pushButton_BreedingBlank.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_BreedingBlank.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor
+                                                              ))
         self.pushButton_BreedingBlank.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.pushButton_BreedingBlank.setText("")
         self.pushButton_BreedingBlank.setIcon(icon)
@@ -189,7 +196,8 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.pushButton_BreedingBlank_2.sizePolicy().hasHeightForWidth())
         self.pushButton_BreedingBlank_2.setSizePolicy(sizePolicy)
-        self.pushButton_BreedingBlank_2.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_BreedingBlank_2.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor
+                                                                ))
         self.pushButton_BreedingBlank_2.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.pushButton_BreedingBlank_2.setText("")
         self.pushButton_BreedingBlank_2.setIcon(icon)
@@ -224,7 +232,8 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.pushButton_Settings.sizePolicy().hasHeightForWidth())
         self.pushButton_Settings.setSizePolicy(sizePolicy)
-        self.pushButton_Settings.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_Settings.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor
+                                                         ))
         self.pushButton_Settings.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.pushButton_Settings.setIcon(icon)
         self.pushButton_Settings.setIconSize(QtCore.QSize(32, 32))
@@ -237,7 +246,8 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.pushButton_Settings_2.sizePolicy().hasHeightForWidth())
         self.pushButton_Settings_2.setSizePolicy(sizePolicy)
-        self.pushButton_Settings_2.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_Settings_2.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor
+                                                           ))
         self.pushButton_Settings_2.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.pushButton_Settings_2.setText("")
         self.pushButton_Settings_2.setIcon(icon)
@@ -251,7 +261,8 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.pushButton_Settings_3.sizePolicy().hasHeightForWidth())
         self.pushButton_Settings_3.setSizePolicy(sizePolicy)
-        self.pushButton_Settings_3.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_Settings_3.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor
+                                                           ))
         self.pushButton_Settings_3.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.pushButton_Settings_3.setText("")
         self.pushButton_Settings_3.setIcon(icon)
@@ -265,7 +276,8 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.pushButton_Settings_4.sizePolicy().hasHeightForWidth())
         self.pushButton_Settings_4.setSizePolicy(sizePolicy)
-        self.pushButton_Settings_4.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_Settings_4.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor
+                                                           ))
         self.pushButton_Settings_4.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.pushButton_Settings_4.setText("")
         self.pushButton_Settings_4.setIcon(icon)
