@@ -1,4 +1,6 @@
+import sqlite3
 import sys
+from PyQt5 import QtWidgets, QtGui
 
 # from PyQt5.QtGui import QPixmap
 from main_window import *  # importing our generated file
@@ -15,7 +17,7 @@ class Main(QtWidgets.QMainWindow):
         self.statusbar = self.statusBar()
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
-        self.title = "Bunny Barn"  # Sets window title
+        self.title = "Heiden APP"  # Sets window title
         self.setWindowTitle(self.title)  # Sets window title
         # self.statusBar().showMessage("Message in lower statusbar.")
 

@@ -2,7 +2,6 @@ import sqlite3
 
 from sqlite3 import Error
 
-
 def sql_connection():
     try:
 
@@ -14,14 +13,12 @@ def sql_connection():
 
         print(Error)
 
-
 def sql_table(con):
     cursorObj = con.cursor()
 
     cursorObj.execute("CREATE TABLE breeds(id integer PRIMARY KEY NOT NULL UNIQUE, name text, abv text)")
 
     con.commit()
-
 
 con = sql_connection()
 
